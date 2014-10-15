@@ -22,6 +22,9 @@ layout: null
     <author>
       <uri>http://vilniusjs.lt/</uri>
     </author>
+    <description type="html">
+      {{ post.content | xml_escape }}
+    </description>
   </entry>
   {% endfor %}
 
